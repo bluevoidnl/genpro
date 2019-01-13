@@ -71,6 +71,7 @@ public abstract class TrainerVisual extends Trainer implements ResultListener {
   private JTextArea errorText;
 
   public TrainerVisual() {
+	SwingUtil.setWindowsLookAndFeel();  
     super.addResultListener(this);
     init();
     renderThread.start();
