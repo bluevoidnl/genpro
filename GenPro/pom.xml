@@ -2,11 +2,16 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>nl.bluevoid.genpro</groupId>
-	<artifactId>GenPro</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<artifactId>base</artifactId>
+	<version>1.0.0</version>
 	<name>GenPro</name>
 	<description>the base</description>
 
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+	</properties>
 
 	<dependencies>
 		<dependency>
@@ -16,9 +21,5 @@
 			<scope>test</scope>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/net.sf.jung/jung-graph-impl -->
-
-
-		
 	</dependencies>
-
 </project>
